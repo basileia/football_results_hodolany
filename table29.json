@@ -1,0 +1,72 @@
+{
+  "datum a čas": {
+    "0": "12.06.2021 16:30",
+    "1": "12.06.2021 16:30",
+    "2": "12.06.2021 16:30",
+    "3": "12.06.2021 17:00",
+    "4": "12.06.2021 17:00",
+    "5": "13.06.2021 10:15",
+    "6": "13.06.2021 16:30",
+    "7": "13.06.2021 17:00"
+  },
+  "domácí": {
+    "0": "Sokol Příkazy (10)",
+    "1": "SK Červenka (14)",
+    "2": "TJ Blatec (15)",
+    "3": "FK Přáslavice (9)",
+    "4": "SK Slatinice \"B\" (13)",
+    "5": "FK Hlubočky \"B\" (11)",
+    "6": "Sokol Nová Hradečná (12)",
+    "7": "SK Šumvald (8)"
+  },
+  "hosté": {
+    "0": "SK Grygov (5)",
+    "1": "Sokol Újezd (1)",
+    "2": "FC Lužice (16)",
+    "3": "Sokol Střelice (6)",
+    "4": "FC Sigma Hodolany (2)",
+    "5": "Sokol Bohuňovice \"B\" (4)",
+    "6": "Sokol Dlouhá Loučka (3)",
+    "7": "FK Horka nad Moravou (7)"
+  },
+  "skóre": {
+    "0": "-- : -- (PK:0:0)",
+    "1": "-- : -- (PK:0:0)",
+    "2": "-- : -- (PK:0:0)",
+    "3": "-- : -- (PK:0:0)",
+    "4": "-- : -- (PK:0:0)",
+    "5": "-- : -- (PK:0:0)",
+    "6": "-- : -- (PK:0:0)",
+    "7": "-- : -- (PK:0:0)"
+  },
+  "hřiště": {
+    "0": "Příkazy",
+    "1": "Červenka",
+    "2": "Blatec",
+    "3": "Přáslavice",
+    "4": "Slatinice,tráva",
+    "5": "Hlubočky",
+    "6": "Nová Hradečná",
+    "7": "Šumvald"
+  },
+  "pzn.": {
+    "0": null,
+    "1": null,
+    "2": null,
+    "3": null,
+    "4": null,
+    "5": null,
+    "6": null,
+    "7": null
+  },
+  "akce": {
+    "0": "nezahájen  delegace",
+    "1": "nezahájen  delegace",
+    "2": "nezahájen  delegace",
+    "3": "nezahájen  delegace",
+    "4": "nezahájen  delegace",
+    "5": "nezahájen  delegace",
+    "6": "nezahájen  delegace",
+    "7": "nezahájen  delegace"
+  }
+}

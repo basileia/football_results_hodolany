@@ -1,0 +1,72 @@
+{
+  "datum a čas": {
+    "0": "01.08.2020 14:30",
+    "1": "01.08.2020 16:30",
+    "2": "01.08.2020 16:30",
+    "3": "01.08.2020 17:00",
+    "4": "01.08.2020 17:00",
+    "5": "01.08.2020 17:00",
+    "6": "02.08.2020 16:30",
+    "7": "02.08.2020 17:00"
+  },
+  "domácí": {
+    "0": "SK Červenka (14)",
+    "1": "Sokol Příkazy (10)",
+    "2": "TJ Blatec (15)",
+    "3": "FK Přáslavice (9)",
+    "4": "SK Slatinice \"B\" (13)",
+    "5": "FK Hlubočky \"B\" (11)",
+    "6": "Sokol Nová Hradečná (12)",
+    "7": "SK Šumvald (8)"
+  },
+  "hosté": {
+    "0": "FC Sigma Hodolany (2)",
+    "1": "Sokol Střelice (6)",
+    "2": "Sokol Újezd (1)",
+    "3": "FK Horka nad Moravou (7)",
+    "4": "Sokol Dlouhá Loučka (3)",
+    "5": "SK Grygov (5)",
+    "6": "Sokol Bohuňovice \"B\" (4)",
+    "7": "FC Lužice (16)"
+  },
+  "skóre": {
+    "0": "4 : 3 (PK:0:0)",
+    "1": "3 : 0 (PK:0:0)",
+    "2": "4 : 1 (PK:0:0)",
+    "3": "1 : 1 (PK:3:4)",
+    "4": "4 : 2 (PK:0:0)",
+    "5": "1 : 5 (PK:0:0)",
+    "6": "5 : 4 (PK:0:0)",
+    "7": "3 : 2 (PK:0:0)"
+  },
+  "hřiště": {
+    "0": "Červenka",
+    "1": "Příkazy",
+    "2": "Blatec",
+    "3": "Přáslavice",
+    "4": "Slatinice,tráva",
+    "5": "Hlubočky",
+    "6": "Nová Hradečná",
+    "7": "Šumvald"
+  },
+  "pzn.": {
+    "0": ", Původní termín: 01.08.2020 16:30",
+    "1": null,
+    "2": null,
+    "3": null,
+    "4": null,
+    "5": null,
+    "6": null,
+    "7": null
+  },
+  "akce": {
+    "0": "zápis uzavřen  delegace",
+    "1": "zápis uzavřen  delegace",
+    "2": "zápis uzavřen  delegace",
+    "3": "zápis uzavřen  delegace",
+    "4": "zápis uzavřen  delegace",
+    "5": "zápis uzavřen  delegace",
+    "6": "zápis uzavřen  delegace",
+    "7": "zápis uzavřen  delegace"
+  }
+}

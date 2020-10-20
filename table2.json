@@ -1,0 +1,72 @@
+{
+  "datum a čas": {
+    "0": "08.08.2020 16:00",
+    "1": "08.08.2020 16:30",
+    "2": "08.08.2020 17:00",
+    "3": "09.08.2020 15:00",
+    "4": "09.08.2020 16:30",
+    "5": "09.08.2020 17:00",
+    "6": "09.08.2020 17:30",
+    "7": "09.08.2020 17:30"
+  },
+  "domácí": {
+    "0": "Sokol Dlouhá Loučka (3)",
+    "1": "FK Horka nad Moravou (7)",
+    "2": "SK Grygov (5)",
+    "3": "Sokol Střelice (6)",
+    "4": "Sokol Újezd (1)",
+    "5": "FC Sigma Hodolany (2)",
+    "6": "SK Šumvald (8)",
+    "7": "Sokol Bohuňovice \"B\" (4)"
+  },
+  "hosté": {
+    "0": "SK Červenka (14)",
+    "1": "Sokol Příkazy (10)",
+    "2": "Sokol Nová Hradečná (12)",
+    "3": "FK Hlubočky \"B\" (11)",
+    "4": "FC Lužice (16)",
+    "5": "TJ Blatec (15)",
+    "6": "FK Přáslavice (9)",
+    "7": "SK Slatinice \"B\" (13)"
+  },
+  "skóre": {
+    "0": "0 : 6 (PK:0:0)",
+    "1": "3 : 1 (PK:0:0)",
+    "2": "4 : 1 (PK:0:0)",
+    "3": "3 : 0 (PK:0:0)",
+    "4": "5 : 4 (PK:0:0)",
+    "5": "1 : 1 (PK:5:4)",
+    "6": "0 : 2 (PK:0:0)",
+    "7": "5 : 0 (PK:0:0)"
+  },
+  "hřiště": {
+    "0": "Dlouhá Loučka",
+    "1": "Horka nad Mor.",
+    "2": "Grygov",
+    "3": "Střelice",
+    "4": "Újezd",
+    "5": "Hodolany",
+    "6": "Šumvald",
+    "7": "Bohuňovice,tráva"
+  },
+  "pzn.": {
+    "0": null,
+    "1": null,
+    "2": null,
+    "3": null,
+    "4": null,
+    "5": null,
+    "6": null,
+    "7": null
+  },
+  "akce": {
+    "0": "zápis uzavřen  delegace",
+    "1": "zápis uzavřen  delegace",
+    "2": "zápis uzavřen  delegace",
+    "3": "zápis uzavřen  delegace",
+    "4": "zápis uzavřen  delegace",
+    "5": "zápis uzavřen  delegace",
+    "6": "zápis uzavřen  delegace",
+    "7": "zápis uzavřen  delegace"
+  }
+}

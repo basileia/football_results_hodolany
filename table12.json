@@ -1,0 +1,72 @@
+{
+  "datum a čas": {
+    "0": "17.10.2020 14:30",
+    "1": "17.10.2020 14:30",
+    "2": "17.10.2020 14:30",
+    "3": "17.10.2020 14:30",
+    "4": "18.10.2020 10:15",
+    "5": "18.10.2020 14:30",
+    "6": "18.10.2020 14:30",
+    "7": "18.10.2020 14:30"
+  },
+  "domácí": {
+    "0": "Sokol Příkazy (10)",
+    "1": "FK Horka nad Moravou (7)",
+    "2": "SK Slatinice \"B\" (13)",
+    "3": "FK Přáslavice (9)",
+    "4": "FK Hlubočky \"B\" (11)",
+    "5": "SK Šumvald (8)",
+    "6": "Sokol Nová Hradečná (12)",
+    "7": "Sokol Střelice (6)"
+  },
+  "hosté": {
+    "0": "FC Sigma Hodolany (2)",
+    "1": "SK Grygov (5)",
+    "2": "SK Červenka (14)",
+    "3": "Sokol Dlouhá Loučka (3)",
+    "4": "Sokol Újezd (1)",
+    "5": "Sokol Bohuňovice \"B\" (4)",
+    "6": "TJ Blatec (15)",
+    "7": "FC Lužice (16)"
+  },
+  "skóre": {
+    "0": "0 : 0 (PK:0:0)",
+    "1": "0 : 0 (PK:0:0)",
+    "2": "0 : 0 (PK:0:0)",
+    "3": "0 : 0 (PK:0:0)",
+    "4": "0 : 0 (PK:0:0)",
+    "5": "0 : 0 (PK:0:0)",
+    "6": "0 : 0 (PK:0:0)",
+    "7": "0 : 0 (PK:0:0)"
+  },
+  "hřiště": {
+    "0": "Příkazy",
+    "1": "Horka nad Mor.",
+    "2": "Slatinice,tráva",
+    "3": "Přáslavice",
+    "4": "Hlubočky",
+    "5": "Šumvald",
+    "6": "Nová Hradečná",
+    "7": "Střelice"
+  },
+  "pzn.": {
+    "0": null,
+    "1": null,
+    "2": null,
+    "3": null,
+    "4": null,
+    "5": null,
+    "6": null,
+    "7": null
+  },
+  "akce": {
+    "0": "zápis neuzavřen  delegace",
+    "1": "zápis neuzavřen  delegace",
+    "2": "zápis neuzavřen  delegace",
+    "3": "zápis neuzavřen  delegace",
+    "4": "zápis neuzavřen  delegace",
+    "5": "zápis neuzavřen  delegace",
+    "6": "zápis neuzavřen  delegace",
+    "7": "zápis neuzavřen  delegace"
+  }
+}

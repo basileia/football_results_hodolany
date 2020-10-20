@@ -1,0 +1,72 @@
+{
+  "datum a čas": {
+    "0": "10.10.2020 15:00",
+    "1": "10.10.2020 15:00",
+    "2": "10.10.2020 15:00",
+    "3": "10.10.2020 15:00",
+    "4": "10.10.2020 15:00",
+    "5": "11.10.2020 15:00",
+    "6": "11.10.2020 15:00",
+    "7": "11.10.2020 15:00"
+  },
+  "domácí": {
+    "0": "SK Grygov (5)",
+    "1": "FC Lužice (16)",
+    "2": "TJ Blatec (15)",
+    "3": "SK Červenka (14)",
+    "4": "Sokol Dlouhá Loučka (3)",
+    "5": "Sokol Újezd (1)",
+    "6": "FC Sigma Hodolany (2)",
+    "7": "Sokol Bohuňovice \"B\" (4)"
+  },
+  "hosté": {
+    "0": "Sokol Střelice (6)",
+    "1": "SK Slatinice \"B\" (13)",
+    "2": "FK Hlubočky \"B\" (11)",
+    "3": "Sokol Nová Hradečná (12)",
+    "4": "SK Šumvald (8)",
+    "5": "Sokol Příkazy (10)",
+    "6": "FK Přáslavice (9)",
+    "7": "FK Horka nad Moravou (7)"
+  },
+  "skóre": {
+    "0": "1 : 8 (PK:0:0)",
+    "1": "4 : 1 (PK:0:0)",
+    "2": "9 : 0 (PK:0:0)",
+    "3": "4 : 1 (PK:0:0)",
+    "4": "0 : 2 (PK:0:0)",
+    "5": "3 : 5 (PK:0:0)",
+    "6": "6 : 1 (PK:0:0)",
+    "7": "1 : 5 (PK:0:0)"
+  },
+  "hřiště": {
+    "0": "Grygov",
+    "1": "Lužice",
+    "2": "Blatec",
+    "3": "Červenka",
+    "4": "Dlouhá Loučka",
+    "5": "Újezd",
+    "6": "Hodolany",
+    "7": "Bohuňovice,tráva"
+  },
+  "pzn.": {
+    "0": null,
+    "1": null,
+    "2": null,
+    "3": null,
+    "4": null,
+    "5": null,
+    "6": null,
+    "7": null
+  },
+  "akce": {
+    "0": "zápis uzavřen  delegace",
+    "1": "zápis uzavřen  delegace",
+    "2": "zápis uzavřen  delegace",
+    "3": "zápis uzavřen  delegace",
+    "4": "zápis uzavřen  delegace",
+    "5": "zápis uzavřen  delegace",
+    "6": "zápis uzavřen  delegace",
+    "7": "zápis uzavřen  delegace"
+  }
+}

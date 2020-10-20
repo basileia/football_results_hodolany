@@ -1,0 +1,72 @@
+{
+  "datum a čas": {
+    "0": "12.09.2020 14:30",
+    "1": "12.09.2020 16:00",
+    "2": "12.09.2020 16:00",
+    "3": "12.09.2020 16:00",
+    "4": "12.09.2020 16:00",
+    "5": "13.09.2020 16:00",
+    "6": "13.09.2020 16:00",
+    "7": "13.09.2020 16:00"
+  },
+  "domácí": {
+    "0": "Sokol Újezd (1)",
+    "1": "SK Červenka (14)",
+    "2": "SK Slatinice \"B\" (13)",
+    "3": "Sokol Dlouhá Loučka (3)",
+    "4": "TJ Blatec (15)",
+    "5": "FC Lužice (16)",
+    "6": "Sokol Nová Hradečná (12)",
+    "7": "FC Sigma Hodolany (2)"
+  },
+  "hosté": {
+    "0": "Sokol Střelice (6)",
+    "1": "SK Šumvald (8)",
+    "2": "FK Přáslavice (9)",
+    "3": "Sokol Bohuňovice \"B\" (4)",
+    "4": "FK Horka nad Moravou (7)",
+    "5": "FK Hlubočky \"B\" (11)",
+    "6": "Sokol Příkazy (10)",
+    "7": "SK Grygov (5)"
+  },
+  "skóre": {
+    "0": "2 : 0 (PK:0:0)",
+    "1": "4 : 1 (PK:0:0)",
+    "2": "2 : 4 (PK:0:0)",
+    "3": "2 : 1 (PK:0:0)",
+    "4": "1 : 1 (PK:5:4)",
+    "5": "9 : 0 (PK:0:0)",
+    "6": "5 : 1 (PK:0:0)",
+    "7": "4 : 2 (PK:0:0)"
+  },
+  "hřiště": {
+    "0": "Újezd",
+    "1": "Červenka",
+    "2": "Slatinice,tráva",
+    "3": "Dlouhá Loučka",
+    "4": "Blatec",
+    "5": "Lužice",
+    "6": "Nová Hradečná",
+    "7": "Hodolany"
+  },
+  "pzn.": {
+    "0": ", Původní termín: 13.09.2020 16:00",
+    "1": null,
+    "2": null,
+    "3": null,
+    "4": null,
+    "5": "/ , Původní termín: 12.09.2020 16:00",
+    "6": null,
+    "7": null
+  },
+  "akce": {
+    "0": "zápis uzavřen  delegace",
+    "1": "zápis uzavřen  delegace",
+    "2": "zápis uzavřen  delegace",
+    "3": "zápis uzavřen  delegace",
+    "4": "zápis uzavřen  delegace",
+    "5": "zápis uzavřen  delegace",
+    "6": "zápis uzavřen  delegace",
+    "7": "zápis uzavřen  delegace"
+  }
+}
