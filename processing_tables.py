@@ -32,6 +32,16 @@ def get_info():
                 matches_info.append([results[j]["datum a čas"][i],
                                     wanted_team, results[j]["hosté"][i],
                                     results[j]["skóre"][i]])
+    return remove_pk_zero(matches_info)
+
+
+def remove_pk_zero(matches_info):
+    """
+    Removes zero penalty kicks from results
+    """
+    for i in range(len(matches_info)):
+        matches_info[i][3] = matches_info[i][3].replace(" (PK:0:0)", "")
+        print(matches_info[i][3])
     return matches_info
 
 
