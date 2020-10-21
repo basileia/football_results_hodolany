@@ -5,15 +5,6 @@ import time
 import json
 
 
-def create_json():
-    """
-    Creates empty json file
-    """
-    data = []
-    with open("tables.json", "w", encoding="utf-8") as file:
-        json.dump(data, file, ensure_ascii=False, indent=2)
-
-
 def write_json(data, filename='tables.json'):
     with open(filename, 'w') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
@@ -46,15 +37,13 @@ while True:
 url = driver.current_url
 tables = pd.read_html(url)
 
-create_json()
+info_to_json = []
 for table in tables:
     result = table.to_json()
     parsed = json.loads(result)
-    with open('tables.json') as json_file:
-        data = json.load(json_file)
-    temp = data
-    temp.append(parsed)
-    write_json(data)
+    info_to_json.append(parsed)
+    
+write_json(info_to_json)
 
 
 time.sleep(10)
