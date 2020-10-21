@@ -6,7 +6,7 @@ import json
 
 
 def write_json(data, filename='tables.json'):
-    with open(filename, 'w') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
@@ -42,9 +42,8 @@ for table in tables:
     result = table.to_json()
     parsed = json.loads(result)
     info_to_json.append(parsed)
-    
-write_json(info_to_json)
 
+write_json(info_to_json)
 
 time.sleep(10)
 driver.close()
