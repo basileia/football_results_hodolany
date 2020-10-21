@@ -45,7 +45,7 @@ while True:
 url = driver.current_url
 tables = pd.read_html(url)
 
-for num in range(len(tables) - 1):
+for num in range(len(tables)):
     result = tables[num].to_json()
     parsed = json.loads(result)
     create_json("table" + str(num) + ".json", parsed)
