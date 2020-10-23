@@ -51,5 +51,4 @@ for table in tables:
 
 write_json(info_to_json)
 
-time.sleep(10)
 driver.close()
