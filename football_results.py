@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.common.exceptions import ElementClickInterceptedException
+from selenium.webdriver.chrome.options import Options
 import pandas as pd
 import time
 import json
@@ -13,7 +14,9 @@ def write_json(data, filename='tables.json'):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-driver = webdriver.Chrome('C:\\webdrivers\\chromedriver')
+options = Options()
+options.headless = True
+driver = webdriver.Chrome('C:\\webdrivers\\chromedriver', options=options)
 driver.get("https://is.fotbal.cz/")
 
 competitions_xpath = '//*[@id="TopMenu_liSoutez"]/a'

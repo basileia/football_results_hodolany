@@ -12,7 +12,7 @@ def load_json(file_name):
 
 def get_info():
     """
-    Get information about football matches, returns list with:
+    Gets information about football matches, returns list with:
     date, home team, away team and score
     """
     wanted_team = "FC Sigma Hodolany (2)"
@@ -41,7 +41,6 @@ def remove_pk_zero(matches_info):
     """
     for i in range(len(matches_info)):
         matches_info[i][3] = matches_info[i][3].replace(" (PK:0:0)", "")
-        print(matches_info[i][3])
     return matches_info
 
 
