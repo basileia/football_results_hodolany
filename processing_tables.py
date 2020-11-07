@@ -44,4 +44,48 @@ def remove_pk_zero(matches_info):
     return matches_info
 
 
-print(get_info())
+def create_html_table_headers(headers):
+    """
+    Creates headers and css style for html table
+    """
+    table = """
+    <style>
+    table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+    th, td { padding: 5px; }
+    </style>
+    """
+    table += '<table style="width:80%">\n'
+    table += "  <tr>\n"
+    for column in headers:
+        table += "    <th>{0}</th>\n".format(column.strip())
+    table += "  </tr>\n"
+    return table
+
+
+def create_html_table(results, headers):
+    """
+    Creates html table from list of match results
+    """
+    table = create_html_table_headers(headers)
+    for i in range(len(results)):
+        table += "  <tr>\n"
+        for result in results[i]:
+            if result == results[i][-1]:
+                table += '  <td style="text-align:center">{0}</td>\n'.format(result.strip())
+            else:
+                table += "    <td>{0}</td>\n".format(result.strip())
+        table += "  </tr>\n"
+    return table
+
+
+def create_html_file(table):
+    with open("html_table.html", "w") as fileout:
+        fileout.writelines(table)
+
+
+headers = ["datum a čas", "domácí", "hosté", "skóre"]
+table = create_html_table(get_info(), headers)
+create_html_file(table)
