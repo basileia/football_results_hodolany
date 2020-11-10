@@ -16,12 +16,15 @@
  <th>{{ header }}</th>
  {% endfor %}
 </tr>
-  
-   <tr>
  {% for result in results %}
- <td>{{ result }}</td>
+   <tr>
+ {% for i in range(result|length - 1) %}
+ <td>{{ result[i] }}</td>
  {% endfor %}
-</tr>
+ <td style="text-align:center">{{ result[-1] }}</td>
+ </tr>
+ {% endfor %}
+
 </table>
 
 </body>

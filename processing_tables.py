@@ -45,53 +45,24 @@ def remove_pk_zero(matches_info):
     return matches_info
 
 
-def create_html_table_headers(headers):
+def fill_template():
     """
-    Creates headers and css style for html table
+    Fills template with FC Hodolany match results
     """
-    table = """
-    <style>
-    table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    }
-    th, td { padding: 5px; }
-    </style>
+    results = get_info()
+    headers = ["datum a čas", "domácí", "hosté", "skóre"]
+    env = jinja2.Environment(loader=jinja2.FileSystemLoader("./"))
+    template = env.get_template("table_template_for_results.html")
+    return template.render(headers=headers, results=results)
+
+
+def create_html_file():
     """
-    table += '<table style="width:80%">\n'
-    table += "  <tr>\n"
-    for column in headers:
-        table += "    <th>{0}</th>\n".format(column.strip())
-    table += "  </tr>\n"
-    return table
-
-
-def create_html_table(results, headers):
+    Creates html_file
     """
-    Creates html table from list of match results
-    """
-    table = create_html_table_headers(headers)
-    for i in range(len(results)):
-        table += "  <tr>\n"
-        for result in results[i]:
-            if result == results[i][-1]:
-                table += '  <td style="text-align:center">{0}</td>\n'.format(result.strip())
-            else:
-                table += "    <td>{0}</td>\n".format(result.strip())
-        table += "  </tr>\n"
-    return table
+    data = fill_template()
+    with open("html_table.html", "w", encoding="utf-8") as file:
+        file.writelines(data)
+        
 
-
-def create_html_file(table):
-    with open("html_table.html", "w") as fileout:
-        fileout.writelines(table)
-
-
-results = get_info()
-headers = ["datum a čas", "domácí", "hosté", "skóre"]
-env = jinja2.Environment(loader=jinja2.FileSystemLoader("./"))
-template = env.get_template("table_template_for_results.html")
-print(template.render(headers=headers, results=results))
-for result in results:
-    for i in range(len(result)):
-        print(result[i])
+create_html_file()
