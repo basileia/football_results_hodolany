@@ -1,5 +1,5 @@
-import json
-import jinja2
+from json import load
+from jinja2 import FileSystemLoader, select_autoescape, Environment
 
 
 def load_json(file_name):
@@ -7,7 +7,7 @@ def load_json(file_name):
     Loads given json file
     """
     with open(file_name, encoding="utf-8") as json_file:
-        data = json.load(json_file)
+        data = load(json_file)
     return data
 
 
@@ -51,7 +51,8 @@ def fill_template():
     """
     results = get_info()
     headers = ["datum a čas", "domácí", "hosté", "skóre"]
-    env = jinja2.Environment(loader=jinja2.FileSystemLoader("./"))
+    env = Environment(loader=FileSystemLoader("./"),
+                      autoescape=select_autoescape(['html', 'xml']))
     template = env.get_template("table_template_for_results.html")
     return template.render(headers=headers, results=results)
 
@@ -63,6 +64,6 @@ def create_html_file():
     data = fill_template()
     with open("html_table.html", "w", encoding="utf-8") as file:
         file.writelines(data)
-        
+
 
 create_html_file()
