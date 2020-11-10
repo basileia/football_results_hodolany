@@ -1,4 +1,5 @@
 import json
+import jinja2
 
 
 def load_json(file_name):
@@ -86,6 +87,11 @@ def create_html_file(table):
         fileout.writelines(table)
 
 
+results = get_info()
 headers = ["datum a čas", "domácí", "hosté", "skóre"]
-table = create_html_table(get_info(), headers)
-create_html_file(table)
+env = jinja2.Environment(loader=jinja2.FileSystemLoader("./"))
+template = env.get_template("table_template_for_results.html")
+print(template.render(headers=headers, results=results))
+for result in results:
+    for i in range(len(result)):
+        print(result[i])
