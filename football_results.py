@@ -15,7 +15,7 @@ def download_results(competition_number):
     """
     options = Options()
     options.headless = True
-    driver = webdriver.Chrome('C:\\webdrivers\\chromedriver', options=options)
+    driver = webdriver.Chrome(options=options)
     driver.get("https://is.fotbal.cz/")
     competitions_xpath = '//*[@id="TopMenu_liSoutez"]/a'
     competition_number_field_xpath = '//*[@id="txtSearchCislo"]'
