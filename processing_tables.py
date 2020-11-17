@@ -53,7 +53,7 @@ def fill_template():
     headers = ["datum a čas", "domácí", "hosté", "skóre"]
     env = Environment(loader=FileSystemLoader("./"),
                       autoescape=select_autoescape(['html', 'xml']))
-    template = env.get_template("table_template_for_results.html")
+    template = env.get_template("table.tpl")
     return template.render(headers=headers, results=results)
 
 
