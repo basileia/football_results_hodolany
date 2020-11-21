@@ -1,0 +1,28 @@
+os: linux
+dist: focal
+language: python
+python: 3.8
+
+addons:
+  chrome: stable
+  apt:
+    packages:
+      - chromium-chromedriver
+
+install: pip install -r requirements.txt
+
+script:
+  - python football_results.py
+  - python processing_tables.py
+  - ls -la
+  - head *.json
+  - head *.html
+
+after_success:
+  - git clone --branch=gh-pages https://github.com/basileia/football_results_hodolany gh-pages
+  - mv -v html_table.html gh-pages/index.html
+  - cd gh-pages
+  - git config user.name "Travis"
+  - git config user.email "travis@travis-ci.org"
+  - git commit --all -m "Table update by Travis"
+  - git push --force "https://${GH_TOKEN}@github.com/basileia/football_results_hodolany" gh-pages
